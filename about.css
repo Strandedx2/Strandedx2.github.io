@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: cyan;
+}
+
+.paragraph {
+  width: 90%;
+  max-width: 600px;
+  /* position: absolute; */
+}
+
+.content {
+  flex: 1;
+}
+
+/* For Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: none;
+}
