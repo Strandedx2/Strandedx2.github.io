@@ -1,23 +1,30 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent scrolling */
+}
+
+
 body {
   background-image: url(IMG_2146.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100vw;
   height: 100vh;
-  width: 100%;
 }
 
 a{color: white;}
 
 .content {
   background: rgba(0, 0, 0, 0.2);
-  height: 100%;
-  width: 100%;
-  z-index: 20;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  
+  width: 100vw;
+  height: 100vh;
+  z-index: 20;
   text-align: center;
   display: flex;
   justify-content: center;
